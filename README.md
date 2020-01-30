@@ -1,11 +1,15 @@
-# BRRF
-This work is the implementation of Boundaries and Region Representation Fusion, as reported in the paper "Enhancing Generic Segmentatoin with Learned Region Representations".
+# Enhancing Generic Segmentation with Learned Region Representations
+This repository is the implementation of RepNet Learning and Boundaries and Region Representation Fusion, as reported in the paper "Enhancing Generic Segmentatoin with Learned Region Representations".
 
-### RepNet
+Authors: Or Isaacs*, Oran Shayer*, Michael Lindenbaum
+
+(* - equal contribution)
+
+## RepNet
 
 The first part of the work is the representation learning algorithm.
 
-## Getting Started
+### Getting Started
 
 Guide to using RepNet:
 
@@ -29,7 +33,7 @@ Make sure to setup:
 -data_dir: Path to the dataset.
 -num_examples: The number of images in 'all_images' you want to generate representation for.
 
-## Prerequisites
+### Prerequisites
 
 Matlab for creating the dataset.
 
@@ -40,16 +44,16 @@ six==1.12.0
 scikit_learn==0.21.3
 tensorflow==2.0.0
 
-## Pre-trained weights
+### Pre-trained weights
 
 For weights already trained on Pascal Context, please download 'fp_weights.npy' from the following link: TODO_WILL_BE_ADDED_SOON
 For weights already trained on BSDS500, please download from the following link: TODO_WILL_BE_ADDED_SOON
 
-### BRRF
+## BRRF
 
 The second part of this work is the BRRF algorithm, designed to segment images using both representation of RepNet and edge maps of COB.
 
-## Getting Started
+### Getting Started
 
 Guide to using BRRF:
 
@@ -65,7 +69,7 @@ To change the thresholds on the training examples, change the 'edgeThresList' va
 Evaluating the dataset:
 1. Run 'main.py'. We recommend looking at the option available with -h.
 
-## Prerequisites
+### Prerequisites
 
 Matlab for evaluating the segmentation.
 
@@ -80,3 +84,14 @@ tqdm==4.32.1
 matlab==0.1
 scikit_learn==0.20.3
 skimage==0.0
+
+## Citation
+
+If you use our code for research, please cite our paper:
+@article{isaacs2019enhancing,
+    title={Enhancing Generic Segmentation with Learned Region Representations},
+    author={Or Isaacs and Oran Shayer and Michael Lindenbaum},
+    journal={arXiv preprint arXiv:1911.08564},
+    year={2019}
+}
+
