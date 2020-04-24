@@ -46,8 +46,8 @@ tensorflow==2.0.0
 
 ### Pre-trained weights
 
-* For weights already trained on Pascal Context, please download 'fp_weights.npy' from the following link: TODO_WILL_BE_ADDED_SOON
-* For weights already trained on BSDS500, please download from the following link: TODO_WILL_BE_ADDED_SOON
+* For weights already trained on Pascal Context, please download 'fp_weights.npy' from the following link: https://drive.google.com/open?id=1QTs8xxP3Kcu34aVy9UzHmaAUX2O4yrJU
+* For the trained model checkpoint on BSDS500, please download from the following link: https://drive.google.com/open?id=1NIfdgpJrtjUt1dnpSg8CKa7gx9PPaODa
 * Representations on BSDS500 images can be downloaded here: https://drive.google.com/open?id=18VetI01cEVgC0hTzoW4i7Z8nM5MJlUxF
 
 ## BRRF
