@@ -46,8 +46,9 @@ tensorflow==2.0.0
 
 ### Pre-trained weights
 
-For weights already trained on Pascal Context, please download 'fp_weights.npy' from the following link: TODO_WILL_BE_ADDED_SOON
-For weights already trained on BSDS500, please download from the following link: TODO_WILL_BE_ADDED_SOON
+* For weights already trained on Pascal Context, please download 'fp_weights.npy' from the following link: TODO_WILL_BE_ADDED_SOON
+* For weights already trained on BSDS500, please download from the following link: TODO_WILL_BE_ADDED_SOON
+* Representations on BSDS500 images can be downloaded here: https://drive.google.com/open?id=18VetI01cEVgC0hTzoW4i7Z8nM5MJlUxF
 
 ## BRRF
 
@@ -84,6 +85,12 @@ tqdm==4.32.1
 matlab==0.1
 scikit_learn==0.20.3
 skimage==0.0
+
+## Results
+Can be downloaded from the following links:
+* BSDS500: https://drive.google.com/open?id=1HSw01RcVlsbuRhxF2ziUQg-9_Ex3QIsm
+* Pascal Context: https://drive.google.com/open?id=1h7ToFLTxSNe1OcZP2xwCddg4Ph4rflS9
+* RCF edges for reproducability: https://drive.google.com/open?id=1Q56sVAEaBCHsKf-ZRqpRTWaKVxMoG9HD
 
 ## Citation
 
