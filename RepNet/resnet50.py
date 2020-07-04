@@ -117,8 +117,8 @@ def inputs():
   return images, labels, edges, ignore, poss_lbls
 
 
-def test_inputs(large=False):
-  image, filenames = resnet50_input.test_inputs(FLAGS.data_dir, large=large)
+def test_inputs():
+  image, filenames = resnet50_input.test_inputs(FLAGS.data_dir)
   return image, filenames
   
 
